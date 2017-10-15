@@ -2,9 +2,6 @@ package ma.akaruikage.proxer.downloader;
 
 public class NoProxerStreamFoundException extends Exception {
 
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
 
 	public NoProxerStreamFoundException() {
