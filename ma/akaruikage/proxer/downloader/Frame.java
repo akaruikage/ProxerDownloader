@@ -16,9 +16,6 @@ import javax.swing.SwingConstants;
 
 public class Frame extends JFrame {
 
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
 	// Setup variables
 	public static String url;
