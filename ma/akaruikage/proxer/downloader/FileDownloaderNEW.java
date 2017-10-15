@@ -76,8 +76,8 @@ public class FileDownloaderNEW extends JFrame {
 			JOptionPane.showConfirmDialog(null, e.getMessage(), "Error", -1);
 			e.printStackTrace();
 		} finally {
-			if (exit = true) {
-				System.exit(128);
+			if (exit = true) {				
+				System.exit(128);	
 			}
 
 		}
