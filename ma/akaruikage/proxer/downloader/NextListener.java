@@ -22,7 +22,7 @@ public class NextListener implements ActionListener {
 		Frame.url = newUrl;
 		Frame.textField.setText(newUrl);
 	}
-
+ 
 	public static void incrementEpisode() {
 		episode = Frame.episode;
 		url = Frame.url;
