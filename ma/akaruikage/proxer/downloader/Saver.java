@@ -6,10 +6,8 @@ import java.net.URLConnection;
 import java.nio.channels.Channels;
 import java.nio.channels.ReadableByteChannel;
 
-// TODO : Penetrate hard in the but.
-
 public class Saver {
-
+ 
 	URLConnection conn;
 	OutputStream outStream;
 	static URL url;
