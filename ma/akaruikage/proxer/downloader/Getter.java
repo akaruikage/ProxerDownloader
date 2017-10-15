@@ -37,7 +37,7 @@ public class Getter {
 		WebClient webClient = new WebClient(BrowserVersion.FIREFOX_52);
 		if (Frame.proxyEnabled) {
 			webClient.getOptions().setProxyConfig(new ProxyConfig(Frame.proxyIP, Frame.proxyPort));
-		}
+		} 
 		webClient.getOptions().setThrowExceptionOnScriptError(false);
 		HtmlPage page = webClient.getPage(url);
 		webClient.waitForBackgroundJavaScript(waittime);
